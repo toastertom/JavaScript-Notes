@@ -22,7 +22,7 @@ a.forEach(function(element) {
 // b
 // c
 ```
-
+---
 **.Filter()** creates a new array with all elements that pass the test implemented by the provided function.
 ####syntax
 ```
@@ -39,3 +39,24 @@ function isBigEnough(value) {
 var filtered = array1.filter(isBigEnough);
 //filtered = [12, 130, 44]
 ```
+---
+**.map()** creates a new array with the results of calling a provided function on every element in this array.
+####Syntax
+```
+var newArray = array.map(callback, thisArg)
+```
+####Example
+```
+var numbers = [1, 5, 10, 15];
+var roots = numbers.map(function(x){
+  return x * 2;
+    });
+    //roots is now [2, 10, 20, 30]
+    //numbers stays the same
+
+var numbers = [1, 4, 9];
+var roots = numbers.map(Math.sqrt);
+//roots is now [1, 2, 3]
+//numbers stays the same
+```
+---
