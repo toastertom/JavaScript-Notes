@@ -2,14 +2,21 @@
 
 ## A condensed list of JS Prototypes with brief description, syntax and simple example.
 ---
+
 ### Filter Array Prototypes
+
 ---
+
 **.filter()** creates a new array with all elements that pass the test implemented by the provided function.
+
 ####syntax
+
 ```
 var newArray = array.filter(callback [, thisArg])
 ```
+
 ####Example
+
 ```
 var array1 = [12, 5, 8, 130, 44];
 
@@ -20,7 +27,9 @@ function isBigEnough(value) {
 var filtered = array1.filter(isBigEnough);
 //filtered = [12, 130, 44]
 ```
+
 ---
+
 **.map()** creates a new array with the results of calling a provided function on every element in this array.
 ####Syntax
 ```
