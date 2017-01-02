@@ -1,4 +1,4 @@
-# Vanilla JavaScript Prototypes
+# Vanilla JavaScript Prototypes ([Back To Index](https://toastertom.github.io/JavaScript-Notes/))
 
 ## A condensed list of JS Prototypes with brief description, syntax and simple example.
 ---

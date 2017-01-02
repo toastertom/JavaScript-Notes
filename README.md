@@ -1,16 +1,28 @@
 # JavaScript-Notes
 
-* [Vanilla JS Prototypes](https://toastertom.github.io/JavaScript-Notes/vanillaJsPrototypes.md)
 
-[Vanilla JS Prototypes "relative"](vanillaJsPrototypes.md)
+* [Vanilla JS Prototypes](vanillaJsPrototypes.md)
 
-**.forEach()**  
-####Syntax
+
+
+
+
+
+
+#### Note Template
+
+**.()**
+
+#### Syntax
+
 ```
 
 ```
-####Example
+
+#### Example
+
 ```
 
 ```
+
 ---
