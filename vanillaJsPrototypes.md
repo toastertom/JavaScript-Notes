@@ -106,7 +106,9 @@ sum.reduce(function(a, b){
 ```
 
 ---
+
 ## Test Elements In Array
+
 ---
 
 **.forEach()**  executes a provided function once for each array element.
