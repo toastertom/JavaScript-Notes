@@ -9,13 +9,17 @@
 
 **.filter()** creates a new array with all elements that pass the test implemented by the provided function.
 
+
 ####syntax
+
 
 ```
 var newArray = array.filter(callback [, thisArg])
 ```
 
+
 ####Example
+
 
 ```
 var array1 = [12, 5, 8, 130, 44];
