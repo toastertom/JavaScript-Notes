@@ -5,7 +5,7 @@
 ### Filter Array Prototypes
 ---
 
-* **.forEach()**  executes a provided function once for each array element.
+**.forEach()**  executes a provided function once for each array element.
 ####Syntax
 ```
 array.forEach(callback, thisArg)
@@ -21,4 +21,21 @@ a.forEach(function(element) {
 // a
 // b
 // c
+```
+
+**.Filter()** creates a new array with all elements that pass the test implemented by the provided function.
+####syntax
+```
+var newArray = array.filter(callback, thisArg)
+```
+####Example
+```
+var array1 = [12, 5, 8, 130, 44];
+
+function isBigEnough(value) {
+  return value >= 10;
+}
+
+var filtered = array1.filter(isBigEnough);
+//filtered = [12, 130, 44]
 ```
