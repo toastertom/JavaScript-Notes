@@ -23,7 +23,7 @@ a.forEach(function(element) {
 // c
 ```
 ---
-**.Filter()** creates a new array with all elements that pass the test implemented by the provided function.
+**.filter()** creates a new array with all elements that pass the test implemented by the provided function.
 ####syntax
 ```
 var newArray = array.filter(callback, thisArg)
@@ -48,15 +48,39 @@ var newArray = array.map(callback, thisArg)
 ####Example
 ```
 var numbers = [1, 5, 10, 15];
+
 var roots = numbers.map(function(x){
   return x * 2;
-    });
+  });
+
     //roots is now [2, 10, 20, 30]
     //numbers stays the same
 
 var numbers = [1, 4, 9];
+
 var roots = numbers.map(Math.sqrt);
-//roots is now [1, 2, 3]
-//numbers stays the same
+
+  //roots is now [1, 2, 3]
+  //numbers stays the same
+```
+---
+**.sort()** sorts the elements of an array in place and returns the array. The sort is not necessarily stable. the default sort order is according to string Unicode code points.
+####Syntax
+```
+array.sort()
+array.sort(compareFunction)
+```
+####Example
+```
+var fruit = ['cherries', 'apples', 'bananas'];
+fruit.sort();
+
+//Results = ['apples', 'bananas', 'cherries']
+
+var things = ['word', 'Word', '1 Word', '2 Words'];
+things.sort();
+
+//Results = ['1 Word', '2 Words', 'Word', 'word']
+//In Unicode, numbers come before uppercase letters, which come before lower case letters.
 ```
 ---
