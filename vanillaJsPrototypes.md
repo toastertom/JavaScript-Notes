@@ -1,17 +1,16 @@
 # Vanilla JavaScript Prototypes
 
 ## A condensed list of JS Prototypes with brief description, syntax and simple example.
-
 ---
-### Filter Arrays
+### Filter Array Prototypes
+---
 
-***.forEach()***
-Executes a provided function once for each array element.
+***.forEach()***  executes a provided function once for each array element.
 ####Syntax
 ```
 array.forEach(callback, thisArg)
 ```
-####example
+####Example
 ```
 var a = ["a", "b", "c"];
 
