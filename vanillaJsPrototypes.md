@@ -5,7 +5,7 @@
 ### Filter Array Prototypes
 ---
 
-***.forEach()***  executes a provided function once for each array element.
+* **.forEach()**  executes a provided function once for each array element.
 ####Syntax
 ```
 array.forEach(callback, thisArg)
