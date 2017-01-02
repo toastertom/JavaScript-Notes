@@ -80,16 +80,6 @@ sum.reduce(function(a, b){
 //sum is 6
 ```
 ---
-**.forEach()**  
-####Syntax
-```
-
-```
-####Example
-```
-
-```
----
 Test Elements In Array
 ---
 
