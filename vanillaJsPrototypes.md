@@ -199,3 +199,27 @@ function isBigEnough(element) {
 array1.find(isBigEnough); //Value is 130
 ```
 ---
+
+
+
+
+---
+
+
+#### Note Template
+
+**.()**
+
+#### Syntax
+
+```
+
+```
+
+#### Example
+
+```
+
+```
+
+---
