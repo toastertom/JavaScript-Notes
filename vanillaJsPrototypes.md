@@ -138,10 +138,13 @@ a.forEach(function(element) {
 **.every()**  tests whether ***all elements*** in the array pass the test implemented by the provided function.
 
 #### Syntax
+
 ```
 array.every(callback  [, thisArg])
 ```
+
 #### Example
+
 ```
 var array1 = [12, 5, 8 ,130, 44];
 var array2 = [12, 54, 18, 130, 44];
@@ -200,8 +203,58 @@ array1.find(isBigEnough); //Value is 130
 ```
 ---
 
+**.findIndex()** returns an index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned.
+
+#### Syntax
+
+```
+array.findIndex(callback[, thisArg])
+
+```
+
+#### Example
+
+```
+
+function isBigEnough(element) {
+  return element >= 15;
+}
+
+[12, 5, 8, 130, 44].findIndex(isBigEnough); // 3
+
+```
+
+---
+
+## Change Elements In Array
+
+---
+
+**.splice()** method changes the content of an array by removing existing elements and/or adding new elements.
+
+#### Syntax
+
+```
+
+array.splice(start)
+array.splice(start, deleteCount)
+array.splice(start, deleteCount, item1, item2, ...)
+
+```
+
+#### Example
+
+```
 
 
+var myFish = ["angel", "clown", "mandarin", "surgeon"];
+myFish.splice(2, 0, "drum");
+
+// myFish is ["angel", "clown", "drum", "mandarin", "surgeon"]
+
+```
+
+---
 
 ---
 
